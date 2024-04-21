@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+    font-family: 'Annie Use Your Telescope',sans-serif;
+    position: relative;
+
+}
+h1{
+
+    font-family: 'Annie Use Your Telescope',sans-serif;
+    text-align: center;
+}
+#logo{
+    position: absolute;
+    top: 20px; /* Ajusta la posición verticalmente */
+    right: 20px; /* Ajusta la posición horizontalmente */
+    width: 100px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    z-index: 1;
+}
+label{
+    display: black;
+    float: left;
+    width: 70px;
+}
+select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
